@@ -1,0 +1,12 @@
+runtime:
+  image: node:22
+
+commands:
+  package: ""
+  build:
+    - "cd server && npm install"
+  start: "cd server && npm start"
+
+repository:
+  branch: main
+  auto_deploy: true
