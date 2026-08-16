@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    >
+
+    <title>Cube Arena</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="gameContainer">
+
+        <canvas id="game"></canvas>
+
+        <div id="hud">
+            <div>❤️ <span id="health">100</span></div>
+            <div>🏆 <span id="score">0</span></div>
+            <div>👥 <span id="players">0</span></div>
+        </div>
+
+        <div id="status">
+            Connecting...
+        </div>
+
+        <!-- Left joystick -->
+        <div id="joystick">
+            <div id="stick"></div>
+        </div>
+
+        <!-- Shoot -->
+        <button id="shootButton">
+            FIRE
+        </button>
+
+    </div>
+
+    <script src="game.js"></script>
+
+</body>
+</html>
